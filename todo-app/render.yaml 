@@ -29,3 +29,4 @@ services:
     envVars:
       - key: VITE_API_URL
         value: https://be-todo.onrender.com
+        
