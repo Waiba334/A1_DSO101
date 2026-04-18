@@ -9,13 +9,23 @@ app.use(cors());
 app.use(express.json());
 
 const pool = new Pool({
+  connectionString: process.env.DATABASE_URL,
   host: process.env.DB_HOST,
   user: process.env.DB_USER,
   password: process.env.DB_PASSWORD,
   database: process.env.DB_NAME,
   port: process.env.DB_PORT || 5432,
-  ssl: { rejectUnauthorized: false }  // required for Render PostgreSQL
+  ssl: { 
+    rejectUnauthorized: false 
+  }  // required for Render PostgreSQL
 });
+
+console.log('Attempting DB connection with:');
+console.log('Host:', process.env.DB_HOST);
+console.log('Port:', process.env.DB_PORT);
+console.log('User:', process.env.DB_USER);
+console.log('Database:', process.env.DB_NAME);
+console.log('Password exists:', !!process.env.DB_PASSWORD);
 
 // Initialize table
 pool.query(`
