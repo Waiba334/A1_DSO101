@@ -21,6 +21,10 @@ services:
     name: fe-todo
     env: docker
     dockerfilePath: ./frontend/Dockerfile
+    dockerCommand: ""
+    buildArgs:
+      - key: VITE_API_URL
+        value: https://be-todo-02240335.onrender.com
     envVars:
       - key: VITE_API_URL
-        value: https://be-todo.onrender.com
+        value: https://be-todo-02240335.onrender.com
