@@ -355,7 +355,9 @@ git push -u origin main
 
 ### Screenshot 27 — Auto Deploy Triggered by Git Push
 
-![alt text](<images/Screenshot 2026-05-01 at 10.35.31 AM.png>)
+![alt text](<images/Screenshot 2026-05-01 at 10.39.36 AM.png>)
+
+![alt text](<images/Screenshot 2026-05-01 at 10.39.48 AM.png>)
 
 ---
 
