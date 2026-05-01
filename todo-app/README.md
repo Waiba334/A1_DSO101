@@ -250,27 +250,27 @@ docker push bishalwaiba/fe-todo:02240335
 ---
 
 
-### Screenshot 21 — Frontend Environment Variables on Render
+### Screenshot 20 — Frontend Environment Variables on Render
 
 ![Frontend Env](<images/Screenshot 2026-04-29 at 9.52.21 PM.png>)
 
 ---
 
-### Screenshot 22 — Deployed Successfully
+### Screenshot 21 — Deployed Successfully
 
 ![Deployed Successfully](<images/Screenshot 2026-04-29 at 9.53.05 PM.png>)
 
 ---
 
 
-### Screenshot 24 — Live Frontend Application
+### Screenshot 22 — Live Frontend Application
 
 ![alt text](<images/Screenshot 2026-04-29 at 9.55.34 PM.png>)
 
 ---
 
 
-### Screenshot 27 — Task Confirmed in Backend API
+### Screenshot 23 — Task Confirmed in Backend API
 
 ![alt text](<images/Screenshot 2026-04-29 at 9.56.24 PM.png>)
 
@@ -311,7 +311,7 @@ services:
 
 ---
 
-### Screenshot 28 — render.yaml in VS Code
+### Screenshot 24 — render.yaml in VS Code
 
 ![alt text](<images/Screenshot 2026-04-29 at 9.57.05 PM.png>)
 
@@ -330,7 +330,7 @@ git push -u origin main
 
 ---
 
-### Screenshot 29 — GitHub Repository with All Files
+### Screenshot 25 — GitHub Repository with All Files
 
 ![Github Repo](<images/Screenshot 2026-04-29 at 9.58.11 PM.png>)
 
@@ -345,27 +345,23 @@ git push -u origin main
 
 ---
 
-### Screenshot 30 — Render Blueprint Connecting to GitHub
+### Screenshot 26 — Render Blueprint Connecting to GitHub
 
-```
-[ INSERT SCREENSHOT: Render Blueprint setup page connected to GitHub repo ]
-```
+![alt text](<images/Screenshot 2026-05-01 at 10.30.09 AM.png>)
 
----
-
-### Screenshot 31 — Auto Deploy Triggered by Git Push
-
-```
-[ INSERT SCREENSHOT: Render Events tab showing a new deploy triggered automatically after git push ]
-```
+![alt text](<images/Screenshot 2026-05-01 at 10.32.52 AM.png>)
 
 ---
 
-### Screenshot 32 — All Services Auto Deployed via Blueprint
+### Screenshot 27 — Auto Deploy Triggered by Git Push
 
-```
-[ INSERT SCREENSHOT: Render dashboard showing all services redeployed after git commit ]
-```
+![alt text](<images/Screenshot 2026-05-01 at 10.35.31 AM.png>)
+
+---
+
+### Screenshot 28 — All Services Auto Deployed via Blueprint
+
+![alt text](<images/Screenshot 2026-05-01 at 10.37.23 AM.png>)
 
 ---
 
